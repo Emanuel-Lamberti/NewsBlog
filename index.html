@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>NewsBlog Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <!-- <img src="./assets/img/news-logo.png" alt="logo-blog" width="50" height="50"> -->
+        <a href="index.html" class="logo d-flex align-items-center" id="html">
+          <h1>NewsBlog</h1>
+        </a>
+      
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="single-post.html">Blog</a></li>
+          <li class="dropdown"><a href="category.html"><span>Categorias</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="search-result.html">Últimas búsquedas</a></li>
+              <li><a href="#">País</a></li>
+              <li class="dropdown"><a href="#"><span>Novedades</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deporte</a></li>
+                  <li><a href="#">Mundo</a></li>
+                  <li><a href="#">Tiempo</a></li>
+                  <li><a href="#">Moneda</a></li>
+                  <li><a href="#">Ciencia</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Economía</a></li>
+              <li><a href="#">Política</a></li>
+              <li><a href="#">Espectáculo</a></li>
+            </ul>
+          </li>
+
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="contact.html">Contactos</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="position-relative">
+        <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
+        <a href="#" class="mx-2"><span class="bi-twitter"></span></a>
+        <a href="#" class="mx-2"><span class="bi-instagram"></span></a>
+
+        <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        <!-- ======= Search Form ======= -->
+        <div class="search-form-wrap js-search-form-wrap">
+          <form action="search-result.html" class="search-form">
+            <span class="icon bi-search"></span>
+            <input type="text" placeholder="Search" class="form-control">
+            <button class="btn js-search-close"><span class="bi-x"></span></button>
+          </form>
+        </div><!-- End Search Form -->
+
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Hero Slider Section ======= -->
+    <section id="hero-slider" class="hero-slider">
+      <div class="container-md" data-aos="fade-in">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper sliderFeaturedPosts">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-1.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>Argentina gritó campeón en Qatar</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-2.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>Nueva ola de calor azota al país</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-3.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>10 consejos para trabajar de manera remota</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-4.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>9 tips para una dieta saludable</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="custom-swiper-button-next">
+                <span class="bi-chevron-right"></span>
+              </div>
+              <div class="custom-swiper-button-prev">
+                <span class="bi-chevron-left"></span>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Hero Slider Section -->
+
+    <!-- ======= Post Grid Section ======= -->
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="single-post.html"><img src="assets/img/post-landscape-1.jpg" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">Cultura</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+              <h2><a href="single-post.html">Hoy se celebra el Día Mundial del Teatro</a></h2>
+              <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus exercitationem? Nihil tempore odit ab minus eveniet praesentium, similique blanditiis molestiae ut saepe perspiciatis officia nemo, eos quae cumque. Accusamus fugiat architecto rerum animi atque eveniet, quo, praesentium dignissimos</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="assets/img/person-1.jpg" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">Giannina Peréz</h3>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-2.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2><a href="single-post.html">El Nuevo Monumental, inagurado</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-3.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">País</span> <span class="mx-1">&bullet;</span> <span>12 Feb 2023</span></div>
+                  <h2><a href="single-post.html">Suben las tarifas a mitad de año, un 50%</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-6.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Moda</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2><a href="single-post.html">Las nuevas tendencias para salir este verano</a></h2>
+                </div>
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-4.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Negocio</span> <span class="mx-1">&bullet;</span> <span>12 Feb 2023</span></div>
+                  <h2><a href="single-post.html">Despidos masivos en todo el mundo impactan la economía mundial</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-5.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Tecnología</span> <span class="mx-1">&bullet;</span> <span>11 Feb 2023</span></div>
+                  <h2><a href="single-post.html">10 formas de ganar dinero a través de ChatGPT</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-7.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Turismo</span> <span class="mx-1">&bullet;</span> <span>10 Feb 2023</span></div>
+                  <h2><a href="single-post.html">5 grandes destinos para viajar por el país</a></h2>
+                </div>
+              </div>
+
+              <!-- Trending Section -->
+              <div class="col-lg-4">
+
+                <div class="trending">
+                  <h3>Tendencias</h3>
+                  <ul class="trending-post">
+                    <li>
+                      <a href="single-post.html">
+                        <span class="number">1</span>
+                        <h3>El show de Rihanna en el último SuperBowl</h3>
+                        <span class="author">Jane Cooper</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post.html">
+                        <span class="number">2</span>
+                        <h3>Hinchas del PSG piden explicaciones al plantel</h3>
+                        <span class="author">Wade Warren</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post.html">
+                        <span class="number">3</span>
+                        <h3>Reunión de mandatarios en Latinoamérica</h3>
+                        <span class="author">Esther Howard</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post.html">
+                        <span class="number">4</span>
+                        <h3>Erupción de un volcán en Japón alerta la región</h3>
+                        <span class="author">Cameron Williamson</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post.html">
+                        <span class="number">5</span>
+                        <h3>Consejos para el cuidado de personas embarazadas</h3>
+                        <span class="author">Jenny Wilson</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div> <!-- End Trending Section -->
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section> <!-- End Post Grid Section -->
+
+    <!-- ======= Culture Category Section ======= -->
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Deporte</h2>
+          <div><a href="category.html" class="more">Lea toda la sección</a></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-9">
+
+            <div class="d-lg-flex post-entry-2">
+              <a href="single-post.html" class="me-4 thumbnail mb-4 mb-lg-0 d-inline-block">
+                <img src="assets/img/post-landscapedeporte-3.jpg" alt="" class="img-fluid">
+              </a>
+              <div>
+                <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                <h3><a href="single-post.html">Crisis interna en el PSG de Messi. ¿Cuál es la solución?</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?</p>
+                <div class="d-flex align-items-center author">
+                  <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
+                  <div class="name">
+                    <h3 class="m-0 p-0">Stuart Warren</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-entry-1 border-bottom">
+                  <a href="single-post.html"><img src="assets/img/post-landscapedeporte-1.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">Sorpresa en las eliminatorias del fútbol femenino</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                  <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus</p>
+                </div>
+
+                <div class="post-entry-1">
+                  <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">5 consejos para hacer ejercicio en casa</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscapedeporte-2.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">Alcanta alcanza un nuevo título con un nuevo record</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                  <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Los números dejados por el mundial de Qatar 2022</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Clubes multimillonarios bajo la mira en toda Europa</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Los momentos más recordados del Grand Slam</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Un nuevo título para los Golden State en la NBA</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">El mundial de rubgy fue para los All Blacks</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Deporte</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Las nuevas sorpresas del Grand Trophy</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Culture Category Section -->
+
+    <!-- ======= Business Category Section ======= -->
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Mundo</h2>
+          <div><a href="category.html" class="more">Lea toda la sección</a></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-9 order-md-2">
+
+            <div class="d-lg-flex post-entry-2">
+              <a href="single-post.html" class="me-4 thumbnail d-inline-block mb-4 mb-lg-0">
+                <img src="assets/img/post-landscapemundo-2.jpg" alt="" class="img-fluid">
+              </a>
+              <div>
+                <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                <h3><a href="single-post.html">Así es el presente del país en el conflicto militar después de un año</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?</p>
+                <div class="d-flex align-items-center author">
+                  <div class="photo"><img src="assets/img/person-4.jpg" alt="" class="img-fluid"></div>
+                  <div class="name">
+                    <h3 class="m-0 p-0">Wade Warren</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-entry-1 border-bottom">
+                  <a href="single-post.html"><img src="assets/img/post-landscapemundo-1.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">Las fotos del desastre del devastador huracán</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                  <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus</p>
+                </div>
+
+                <div class="post-entry-1">
+                  <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">5 grandes descubrimientos arqueológicos del año</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscapemundo-3.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">El precio de los cultivos se eleva en todo el mundo</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                  <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Grandes inundaciones azotan la India</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Se descubre un nuevo posible planeta habitable</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">Peligra el nivel del mar en el Pacífico para los lugareños</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">El peligro de los microplásticos en el cuerpo</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">El carnval se celebra con mucha emoción en Brasil</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Mundo</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html"></a>Grandes despidos en compañias internaciones afectan la economía global</h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Business Category Section -->
+
+    <!-- ======= Lifestyle Category Section ======= -->
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Espectáculos</h2>
+          <div><a href="category.html" class="more">Lea toda la sección</a></div>
+        </div>
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="single-post.html"><img src="assets/img/post-landscape-espectaculos-3.jpg" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+              <h2><a href="single-post.html">El gran éxito inesperado de la animación</a></h2>
+              <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus exercitationem? Nihil tempore odit ab minus eveniet praesentium, similique blanditiis molestiae ut saepe perspiciatis officia nemo, eos quae cumque. Accusamus fugiat architecto rerum animi atque eveniet, quo, praesentium dignissimos</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="assets/img/person-7.jpg" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">Esther Howard</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">El fracaso de las películas de Marvel</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+            <div class="post-entry-1">
+              <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+              <h2 class="mb-2"><a href="single-post.html">HBO apuesta a nuevas adaptaciones para su plataforma</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-espectaculos-1.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2><a href="single-post.html">Los nominados de Gran Hermano</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-espectaculos-2.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2><a href="single-post.html">La película que rompe records en los cines del país</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-4.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2><a href="single-post.html">El nuevo show esperado del artista reconocido de este año</a></h2>
+                </div>
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-espectaculos-5.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2><a href="single-post.html">El glamour que dejó la gran noche de la alfombra roja</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-espectaculos-6.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2><a href="single-post.html">Los shows más esperados en la tv pública que llegarán este año</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/post-landscape-espectaculos-7.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2><a href="single-post.html">Las nuevas series que llegarán en la plataforma de streaming</a></h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">¿Quienes se suman a la casa más famosa del país?</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">10 grandes series para disfrutar en familia</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>12 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">Las nuevas caras de los superheroés llegan al cine</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">Grandes espectáculos llegan al teatro este fin de semana</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">Se abre la inscripción a las clases actorales del Teatro Colón</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Espectáculos</span> <span class="mx-1">&bullet;</span> <span>14 Feb 2023</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">10 momentos memorables del humor en la tv</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section><!-- End Lifestyle Category Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">Sobre NewBlog</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab, perspiciatis beatae autem deleniti voluptate nulla a dolores, exercitationem eveniet libero laudantium recusandae officiis qui aliquid blanditiis omnis quae. Explicabo?</p>
+            <p><a href="about.html" class="footer-link-more">Leer más</a></p>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Navegación</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Incio</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Categorias</a></li>
+              <li><a href="single-post.html"><i class="bi bi-chevron-right"></i> Blog</a></li>
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i> Sobre nosotros</a></li>
+              <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contactos</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Categorias</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Negocios</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Cultura</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Deportes</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Salud</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Politica</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Espectáculos</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Mundo</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Turismo</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="footer-heading">Blogs recientes</h3>
+
+            <ul class="footer-links footer-blog-entry list-unstyled">
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-1.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Cultura</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                    <span>5 grandes consejos para hacer tu emprendimiento en casa</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-2.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Cultura</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                    <span>Los actos que estarán presentes en la ciudad</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-3.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Cultura</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                    <span>¿Cómo es la vida a través de la videollamada? Consejos para no aburrirte</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-4.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Cultura</span> <span class="mx-1">&bullet;</span> <span>13 Feb 2023</span></div>
+                    <span>Las ferias son un éxito en el día más importante</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+              © Copyright <strong><span>NewBlog</span></strong>. Todos los derechos reservados
+            </div>
+
+            <div class="credits">
+              Diseñado por <a href="https://bootstrapmade.com/">Lamberti Emanuel Adrián</a>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
